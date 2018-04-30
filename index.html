@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+ 
+    <div class="grid">
+         <div id="endSection">
+         </div>
+
+         <img id="contextCircle" src="/images/contextTrans.png" height="194" width="194">
+        <div id="quiz">
+ 
+            <h1>Quiz</h1>
+            <hr style="margin-bottom: 20px">
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="btn0" class="buttonNormal"><span id="choice0"></span></button>
+                <button id="btn1" class="buttonNormal"><span id="choice1"></span></button>
+                <button id="btn2" class="buttonNormal"><span id="choice2"></span></button>
+                <button id="btn3" class="buttonNormal"><span id="choice3"></span></button>
+                <button id="btn4" class="buttonNormal"><span id="choice4"></span></button>
+                <button id="btn5" class="buttonNormal"><span id="choice5"></span></button>
+                <button id="btn6" class="buttonNormal"><span id="choice6"></span></button>
+            </div>
+
+            <div>
+                <button id="submit" class="buttonNormal">SUBMIT</button>
+            </div>
+
+            <hr style="margin-top: 80px">
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+
+<script src="quiz.js"></script>
+<script src="question.js"></script>
+<script src="app.js"></script>
+<script src="raphael.min.js"></script>
+
+</body>
+</html>
